@@ -121,14 +121,14 @@ export default function FarmerSupportPage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button asChild size="lg">
-                <a href="tel:+919231021906" className="flex items-center gap-2">
+                <a href="tel:+919264195202" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Expert Now
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <a
-                  href="https://wa.me/919231021906?text=Hello! I need help with my poultry farm."
+                  href="https://wa.me/919264195202?text=Hello! I need help with my poultry farm."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -258,14 +258,14 @@ export default function FarmerSupportPage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button asChild size="lg" variant="secondary">
-                <a href="tel:+919231021906" className="flex items-center gap-2">
+                <a href="tel:+919264195202" className="flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call Expert: +91 92310 21906
+                  Call Expert: +91 9264195202
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
                 <a
-                  href="https://wa.me/919231021906?text=Hello! I need expert advice for my poultry farm."
+                  href="https://wa.me/919264195202?text=Hello! I need expert advice for my poultry farm."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"

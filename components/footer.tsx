@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-sm text-primary-foreground/80 hover:text-secondary transition-colors"
                   >
@@ -67,7 +67,7 @@ export function Footer() {
             <ul className="space-y-2">
               {products.map((link) => (
                 <li key={link.href}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-sm text-primary-foreground/80 hover:text-secondary transition-colors"
                   >
@@ -83,7 +83,7 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li>
-                <a 
+                <a
                   href="tel:+919231021906"
                   className="flex items-center gap-2 text-sm text-primary-foreground/80 hover:text-secondary transition-colors"
                 >
@@ -92,12 +92,12 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="mailto:info@kumarfeeds.com"
+                <a
+                  href="mailto:info@kumarfeeds.in"
                   className="flex items-center gap-2 text-sm text-primary-foreground/80 hover:text-secondary transition-colors"
                 >
                   <Mail className="w-4 h-4 flex-shrink-0" />
-                  info@kumarfeeds.com
+                  info@kumarfeeds.in
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-primary-foreground/80">
@@ -119,7 +119,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-primary-foreground/80">
-              &copy; {new Date().getFullYear()} Kumar Feeds & Biotech Private Limited. All rights reserved.
+              &copy; 2019 Kumar Feeds & Biotech Private Limited. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link href="/privacy" className="text-sm text-primary-foreground/80 hover:text-secondary transition-colors">

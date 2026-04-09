@@ -42,7 +42,7 @@ export function FarmerSupport() {
             <p className="text-muted-foreground leading-relaxed">
               Your success is our success. That&apos;s why we offer complete support to help you get the most out of your poultry farming business. From feeding advice to health tips, we are always here for you.
             </p>
-            
+
             <div className="space-y-4">
               {supportFeatures.map((feature, index) => (
                 <div key={index} className="flex items-start gap-4">
@@ -78,7 +78,7 @@ export function FarmerSupport() {
               <div className="absolute bottom-0 left-0 right-0 p-8 text-center text-primary-foreground">
                 <div className="text-5xl font-bold">24/7</div>
                 <div className="text-xl font-semibold mt-2">Expert Support</div>
-                <p className="text-primary-foreground/80 mt-2">Call us anytime at +91 92310 21906</p>
+                <p className="text-primary-foreground/80 mt-2">Call us anytime at +91 92310 21906 / +91 94713 97603</p>
                 <Button asChild className="mt-6" variant="secondary">
                   <a href="tel:+919231021906" className="flex items-center gap-2">
                     <Phone className="w-4 h-4" />

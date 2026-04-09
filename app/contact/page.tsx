@@ -12,8 +12,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+91 92310 21906",
-    link: "tel:+919231021906",
+    value: "+91 92310 21906 / +91 94713 97603",
+    link: "tel:+919231021906/+919471397603",
     description: "Call us directly for orders and inquiries",
   },
   {
@@ -26,14 +26,14 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "info@kumarfeeds.com",
-    link: "mailto:info@kumarfeeds.com",
+    value: "info@kumarfeeds.in",
+    link: "mailto:info@kumarfeeds.in",
     description: "For detailed inquiries and documents",
   },
   {
     icon: Clock,
     title: "Business Hours",
-    value: "Mon-Sat: 8AM - 8PM",
+    value: "Mon-Sat: 10AM - 6PM",
     link: null,
     description: "Emergency support available 24/7",
   },
@@ -64,7 +64,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {contactInfo.map((info, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-card rounded-xl border border-border p-6 text-center hover:shadow-lg hover:border-primary/30 transition-all"
               >
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-semibold text-foreground mb-1">{info.title}</h3>
                 {info.link ? (
-                  <a 
+                  <a
                     href={info.link}
                     target={info.link.startsWith("http") ? "_blank" : undefined}
                     rel={info.link.startsWith("http") ? "noopener noreferrer" : undefined}
@@ -176,7 +176,7 @@ export default function ContactPage() {
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <a 
+                <a
                   href="https://wa.me/919231021906?text=Hello! I need help with my order."
                   target="_blank"
                   rel="noopener noreferrer"

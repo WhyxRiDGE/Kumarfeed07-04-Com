@@ -18,11 +18,11 @@ export function CTASection() {
             <Button asChild size="lg" variant="secondary" className="text-base px-8">
               <a href="tel:+919231021906" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call Now: +91 92310 21906
+                Call Now: +91 92310 21906 / +91 94713 97603
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="text-base px-8 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              <a 
+              <a
                 href="https://wa.me/919231021906?text=Hello! I am interested in your poultry feed products."
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,7 +35,7 @@ export function CTASection() {
           </div>
 
           <div className="mt-8">
-            <Link 
+            <Link
               href="/contact"
               className="inline-flex items-center text-primary-foreground/80 hover:text-secondary transition-colors"
             >

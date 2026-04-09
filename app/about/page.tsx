@@ -1,11 +1,11 @@
 import { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
-import { 
-  Target, 
-  Eye, 
-  Heart, 
-  Users, 
+import {
+  Target,
+  Eye,
+  Heart,
+  Users,
   Award,
   TrendingUp,
   ArrowRight,
@@ -15,16 +15,16 @@ import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Kumar Feeds & Biotech Private Limited - over 25 years of excellence in poultry nutrition. Our mission, vision, and commitment to farmer success.",
+  description: "Learn about Kumar Feeds & Biotech Private Limited - over 8 years of excellence in poultry nutrition. Our mission, vision, and commitment to farmer success.",
 }
 
 const milestones = [
-  { year: "2000", event: "Company founded with a small manufacturing unit" },
-  { year: "2005", event: "Expanded production capacity by 5x" },
-  { year: "2010", event: "Achieved ISO certification for quality management" },
-  { year: "2015", event: "Launched specialized layer and starter feeds" },
-  { year: "2020", event: "Reached 10,000+ farmer customers milestone" },
-  { year: "2024", event: "New R&D center for feed innovation" },
+  { year: "2019", event: "Company founded with a small manufacturing unit" },
+  { year: "2020", event: "Expanded production capacity by 5x" },
+  { year: "2021", event: "Achieved ISO certification for quality management" },
+  { year: "2022", event: "Launched specialized layer and starter feeds" },
+  { year: "2023", event: "Reached 150,000+ farmer customers milestone" },
+  { year: "2025", event: "New Poultry Intrigation Started" },
 ]
 
 const values = [
@@ -61,10 +61,10 @@ export default function AboutPage() {
               About Us
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-              25+ Years of Helping Farmers Grow
+              8+ Years of Helping Farmers Grow
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Kumar Feeds & Biotech Private Limited has been a trusted name in poultry nutrition since 2000. We are committed to providing premium quality feed that helps farmers achieve better results and higher profits.
+              Kumar Feeds & Biotech Private Limited has been a trusted name in poultry nutrition since 2019. We are committed to providing premium quality feed that helps farmers achieve better results and higher profits.
             </p>
           </div>
         </div>
@@ -79,13 +79,13 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Kumar Feeds was born from a simple belief: Indian poultry farmers deserve access to world-class nutrition at fair prices. Our founder, Mr. Ramesh Kumar, started with a small manufacturing unit and a big dream.
+                Kumar Feeds was born from a simple belief: Indian poultry farmers deserve access to world-class nutrition at fair prices. Our founder, Mr. Uday Kumar, started with a small manufacturing unit and a big dream.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Over the years, we have grown from a local supplier to one of the most trusted names in poultry feed across North India. But our core values remain the same - quality, integrity, and farmer success.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Today, we serve over 10,000 farmers and produce lakhs of kilograms of premium feed every month. Our state-of-the-art facility uses the latest technology to ensure consistent quality in every bag.
+                Today, we serve over 150,000 farmers and produce lakhs of kilograms of premium feed every month. Our state-of-the-art facility uses the latest technology to ensure consistent quality in every bag.
               </p>
             </div>
             <div className="relative">
@@ -99,7 +99,7 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-8 text-center text-primary-foreground">
                   <div className="text-xl font-semibold">Growing Together</div>
-                  <p className="text-primary-foreground/80 mt-2">Since 2000</p>
+                  <p className="text-primary-foreground/80 mt-2">Since 2019</p>
                 </div>
               </div>
             </div>
@@ -147,20 +147,20 @@ export default function AboutPage() {
             </div>
             <div className="bg-muted/50 rounded-2xl p-8 md:p-12">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                &quot;I grew up on a small farm in Haryana and saw firsthand the challenges farmers face. When I started Kumar Feeds, my goal was simple - to create feed that I would trust for my own birds.&quot;
+                &quot;I grew up on a small farm in Deoghar and saw firsthand the challenges farmers face. When I started Kumar Feeds, my goal was simple - to create feed that I would trust for my own birds.&quot;
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Mr. Ramesh Kumar started with a small mixing unit and just three employees. He personally visited farms, understood farmers&apos; problems, and developed formulas that addressed real needs. His hands-on approach and commitment to quality quickly earned the trust of local farmers.
+                Mr. Uday Kumar started with a small mixing unit and just three employees. He personally visited farms, understood farmers&apos; problems, and developed formulas that addressed real needs. His hands-on approach and commitment to quality quickly earned the trust of local farmers.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Today, his son continues this legacy, combining traditional wisdom with modern science to create feeds that deliver consistent results. The family&apos;s farming roots remain at the heart of everything we do.
               </p>
               <div className="mt-8 flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">RK</span>
+                  <span className="text-2xl font-bold text-primary">UK</span>
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">Mr. Ramesh Kumar</div>
+                  <div className="font-semibold text-foreground">Mr. Uday Kumar</div>
                   <div className="text-sm text-muted-foreground">Founder & Chairman</div>
                 </div>
               </div>

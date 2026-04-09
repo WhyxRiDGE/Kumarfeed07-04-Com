@@ -17,7 +17,7 @@ export function AboutPreview() {
               Your Trusted Partner in Poultry Farming Success
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Kumar Feeds & Biotech Private Limited has been serving Indian poultry farmers for over 25 years. We understand the challenges you face and have dedicated ourselves to creating feed solutions that deliver real results.
+              Kumar Feeds & Biotech Private Limited has been serving Indian poultry farmers for over 8 years. We understand the challenges you face and have dedicated ourselves to creating feed solutions that deliver real results.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Our state-of-the-art manufacturing facility uses the latest technology to ensure every batch of feed meets our exacting standards. From raw material selection to final packaging, quality is our top priority.
@@ -64,9 +64,9 @@ export function AboutPreview() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-8 text-center text-primary-foreground">
-                <div className="text-6xl font-bold">25+</div>
+                <div className="text-6xl font-bold"> 8+</div>
                 <div className="text-xl font-semibold mt-2">Years of Excellence</div>
-                <p className="text-primary-foreground/80 mt-2">Serving Indian Farmers Since 2000</p>
+                <p className="text-primary-foreground/80 mt-2">Serving Indian Farmers Since 2019</p>
               </div>
             </div>
             {/* Decorative Elements */}

@@ -28,9 +28,9 @@ const products = [
     color: "bg-primary",
   },
   {
-    id: "custom",
+    id: "Kouiler Feed",
     icon: Settings,
-    title: "Customized Feed",
+    title: "Kouiler Feed",
     description: "Tailored feed solutions based on your specific needs. We work with you to create the perfect blend.",
     benefits: ["Your Formula", "Expert Support", "Flexible Orders"],
     color: "bg-secondary",
@@ -57,7 +57,7 @@ export function ProductsGrid() {
         {/* Products Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
-            <div 
+            <div
               key={product.id}
               className="group bg-card rounded-2xl border border-border p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
@@ -68,7 +68,7 @@ export function ProductsGrid() {
               <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{product.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {product.benefits.map((benefit, index) => (
-                  <span 
+                  <span
                     key={index}
                     className="text-xs px-2 py-1 bg-muted rounded-full text-muted-foreground"
                   >
@@ -76,7 +76,7 @@ export function ProductsGrid() {
                   </span>
                 ))}
               </div>
-              <Link 
+              <Link
                 href={`/products#${product.id}`}
                 className="inline-flex items-center text-sm font-medium text-primary hover:gap-2 transition-all"
               >

@@ -1,7 +1,7 @@
 import { Metadata } from "next"
-import { 
-  BookOpen, 
-  Stethoscope, 
+import {
+  BookOpen,
+  Stethoscope,
   ThermometerSun,
   Droplets,
   Lightbulb,
@@ -71,7 +71,7 @@ const healthTips = [
 const faqs = [
   {
     question: "How much feed does a broiler need to reach 2kg weight?",
-    answer: "A broiler typically needs 3.5-4kg of feed to reach 2kg body weight, achieving an FCR of 1.75-2.0. This depends on the quality of feed, management practices, and bird genetics. With Kumar Feeds, many farmers achieve FCR below 1.8.",
+    answer: "A broiler typically needs 3 kg of feed to reach 2kg body weight, achieving an FCR of 1.45-1.5. This depends on the quality of feed, management practices, and bird genetics. With Kumar Feeds, many farmers achieve FCR below 1.8.",
   },
   {
     question: "Why are my birds not growing as expected?",
@@ -127,7 +127,7 @@ export default function FarmerSupportPage() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a 
+                <a
                   href="https://wa.me/919231021906?text=Hello! I need help with my poultry farm."
                   target="_blank"
                   rel="noopener noreferrer"
@@ -159,7 +159,7 @@ export default function FarmerSupportPage() {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {feedingTips.map((tip, index) => (
-              <div 
+              <div
                 key={index}
                 className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all"
               >
@@ -193,7 +193,7 @@ export default function FarmerSupportPage() {
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {healthTips.map((tip, index) => (
-              <div 
+              <div
                 key={index}
                 className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:border-secondary/50 hover:shadow-md transition-all"
               >
@@ -228,8 +228,8 @@ export default function FarmerSupportPage() {
           <div className="max-w-3xl mx-auto">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem 
-                  key={index} 
+                <AccordionItem
+                  key={index}
                   value={`item-${index}`}
                   className="bg-card rounded-xl border border-border px-6"
                 >
@@ -264,7 +264,7 @@ export default function FarmerSupportPage() {
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <a 
+                <a
                   href="https://wa.me/919231021906?text=Hello! I need expert advice for my poultry farm."
                   target="_blank"
                   rel="noopener noreferrer"

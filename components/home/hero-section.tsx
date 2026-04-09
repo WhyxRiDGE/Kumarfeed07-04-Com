@@ -22,7 +22,7 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-            Trusted by 10,000+ Farmers Across India
+            Trusted by 150,000+ Farmers Across India
           </div>
 
           {/* Main Headline */}
@@ -46,7 +46,7 @@ export function HeroSection() {
               </a>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-base px-8 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-              <a 
+              <a
                 href="https://wa.me/919231021906?text=Hello! I am interested in your poultry feed products."
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export function HeroSection() {
           {/* Quick Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {[
-              { value: "25+", label: "Years Experience" },
+              { value: "8+", label: "Years Experience" },
               { value: "10K+", label: "Happy Farmers" },
               { value: "50L+", label: "Kg Feed Sold" },
               { value: "100%", label: "Quality Assured" },

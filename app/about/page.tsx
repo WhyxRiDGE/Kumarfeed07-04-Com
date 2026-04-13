@@ -155,14 +155,42 @@ export default function AboutPage() {
               <p className="text-muted-foreground leading-relaxed">
                 Today, his son continues this legacy, combining traditional wisdom with modern science to create feeds that deliver consistent results. The family&apos;s farming roots remain at the heart of everything we do.
               </p>
-              <div className="mt-8 flex items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">UK</span>
-                </div>
-                <div>
-                  <div className="font-semibold text-foreground">Mr. Uday Kumar</div>
-                  <div className="text-sm text-muted-foreground">Founder & Chairman</div>
-                </div>
+
+              <div className="mt-10 overflow-hidden rounded-2xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] border border-border/50">
+                <Image
+                  src="/images/founder-vision.png"
+                  alt="Founder Vision - Mr. Uday Kumar"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CEO's Thought */}
+      <section className="py-20 bg-muted/50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-primary text-sm font-medium mb-4">
+                CEO&apos;s Thought
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                Driving the Future
+              </h2>
+            </div>
+            <div className="bg-background rounded-2xl p-8 md:p-12 shadow-sm border border-border">
+              <div className="overflow-hidden rounded-2xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] border border-border/50">
+                <Image
+                  src="/images/ceo-thought.png"
+                  alt="CEO's Thought - Nourishing lives through responsible farming and uncompromising quality."
+                  width={1200}
+                  height={1600}
+                  className="w-full h-auto"
+                />
               </div>
             </div>
           </div>
